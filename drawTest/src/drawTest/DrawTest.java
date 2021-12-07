@@ -56,7 +56,7 @@ public class DrawTest {
 		graphics=img.createGraphics();
 		
 		graphics.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-		graphics.setColor(Color.lightGray);
+		graphics.setColor(Color.gray);
 		graphics.fillRect(0, 0, width, height);
 		
 		graphics.setFont(font);
