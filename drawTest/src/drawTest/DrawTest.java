@@ -91,6 +91,8 @@ public class DrawTest {
 			fos=new FileOutputStream(new File(fileName));
 			ImageIO.write(mergedImage, "png", fos);
 			System.out.println("complete");
+			
+			
 					
 			
 		}
